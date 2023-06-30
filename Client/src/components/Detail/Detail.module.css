@@ -1,0 +1,38 @@
+@font-face {
+    font-family: rick_and_morty_title;
+    src: url(../../assets/get_schwifty.ttf);
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family:rick_and_morty_title;
+    color:rgb(5, 2, 2); 
+    width:30%;
+    height:45%; 
+    padding-left: 35%;
+    padding-top: 5%;
+    
+}
+
+.status{
+    background-color:   chartreuse;
+}
+
+.species{
+    background-color:  chartreuse;
+}
+
+.gender{
+    background-color:  chartreuse;
+}
+
+.name{
+    background-color: chartreuse;
+}
+
+.h1{
+   
+    background-color:rgba(45, 179, 45, 0.843);
+}

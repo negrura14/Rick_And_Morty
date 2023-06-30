@@ -1,0 +1,19 @@
+.container{
+    /* border: none;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    padding: 2em;
+    border-radius: 2em;
+    border-radius: 2em;
+    perspective: 1500px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}

@@ -1,0 +1,16 @@
+.App {
+   background-image: url('./images/desktop-wallpaper-interdimensional-rss-the-rick-and-morty-podcast-rick-and-morty-outer-space.jpg');
+   /* text-align: center;
+   margin: 0 auto;
+   background-repeat: no-repeat;
+   background-size: 100vw;
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;  */
+   
+   width: 100vw;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
