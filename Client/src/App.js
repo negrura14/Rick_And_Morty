@@ -40,7 +40,7 @@ function App() {
       try {
         const {data} = await axios(`http://localhost:3001/rickandmorty/character/${id}`)
         if(data.name){
-         setCharacters((oldChars) => [...oldChars, data]);
+         setCharacters([...characters, data]);
         }
                      
       } catch (error) {
@@ -49,9 +49,7 @@ function App() {
    }
 
    const onClose = (id) => {
-      setCharacters(characters.filter((char) => {
-         return char.id !== Number(id)
-      }))
+      setCharacters(characters.filter((char)=> char.id !== id))
    }
    useEffect(()=>{
       !access && navigate('/');
