@@ -6,7 +6,7 @@ module.exports = (sequelize) => {
          type: DataTypes.INTEGER,
          primaryKey: true,
          allowNull: false,
-         //autoincrement: true,
+         autoIncrement: true,
 
       },
       email: {
